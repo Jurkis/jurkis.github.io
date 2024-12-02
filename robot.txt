@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://jurkis.neocities.org/sitemap.xml
