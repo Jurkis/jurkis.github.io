@@ -17,7 +17,8 @@
         <title>
             Mano bandomasis puslapis
         </title>
-        <meta name="description" content>
+        <meta name="description"
+            content="This is a test webpage showcasing various links and sections.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
@@ -59,11 +60,18 @@
                 </a>
             </p>
         </div>
+        <div><a href="https://www.eurobilltracker.com/?referer=243791">
+                <img src="https://www.eurobilltracker.com/banner.php"
+                    alt="banner for www.eurobilltracker.com"
+                    style="border: 0;" />
+            </a></div>
         <hr>
         <footer>
-            <p>Autorius: Jurkis
-            </p>
+            <p>&copy; <span id="year"></span> Jurkis</p>
         </footer>
+        <script>
+            // Set the current year dynamically
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </body>
-
 </html>

@@ -31,10 +31,11 @@
         </div>
         <hr>
         <footer>
-            <p>Autorius: Jurkis <br>
-                <a href="./index.html" title="Atgal į pradinį">Atgal į
-                    pradinį</a>
-            </p>
+            <p>&copy; <span id="year"></span> Jurkis</p>
         </footer>
+        <script>
+            // Set the current year dynamically
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
     </body>
 </html>
