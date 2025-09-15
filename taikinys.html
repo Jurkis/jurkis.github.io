@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="lt">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        <script async
-            src="https://www.googletagmanager.com/gtag/js?id=G-KSPPCGGZJE"></script>
-        <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-KSPPCGGZJE');
-</script>
-        <meta charset="UTF-8">
-        <meta name="description" content="A personal showcase of a shooting target with bullet marks.">
-        <meta name="keywords" content="target shooting, bullet holes, shooting practice">
-        <meta name="author" content="Jurkis">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Taikinys suvarpytasis </title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div>
-            <p>Štai taip aš pašaudžiau: <img
-                    src="./paveiksleliai/PXL_20241108_070651714.jpg"
-                    alt="Taikinys suvarpytasis">
-            </p>
-        </div>
-        <hr>
-        <footer>
-            <p>&copy; <span id="year"></span> Jurkis</p>
-        </footer>
-        <script>
-            // Set the current year dynamically
-            document.getElementById('year').textContent = new Date().getFullYear();
-        </script>
-    </body>
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KSPPCGGZJE"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-KSPPCGGZJE');
+    </script>
+    <meta charset="UTF-8">
+    <meta name="description" content="A personal showcase of a shooting target with bullet marks.">
+    <meta name="keywords" content="target shooting, bullet holes, shooting practice">
+    <meta name="author" content="Jurkis">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taikinys suvarpytasis </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <p>Štai taip aš pašaudžiau:
+            <br>
+            <img src="./paveiksleliai/PXL_20241108_070651714.jpg" width="800" height="800" alt="Taikinys suvarpytasis">
+        </p>
+    </div>
+    <hr>
+    <footer>
+        <p>&copy; <span id="year"></span> Jurkis</p>
+    </footer>
+    <script>
+        // Set the current year dynamically
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
 </html>
