@@ -3,22 +3,27 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://jurkis.neocities.org/</loc>
-	<lastmod>2025-09-15T07:30:10+01:00</lastmod>
+	<lastmod>2025-09-18T17:43:33+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://jurkis.neocities.org/taikinys</loc>
-	<lastmod>2025-09-15T07:30:10+01:00</lastmod>
+	<lastmod>2025-09-18T17:43:33+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://jurkis.neocities.org/aplankytos_salys</loc>
-	<lastmod>2025-09-15T07:30:12+01:00</lastmod>
+	<lastmod>2025-09-18T17:43:34+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
 	<loc>https://jurkis.neocities.org/naudinga</loc>
-	<lastmod>2025-09-15T07:30:12+01:00</lastmod>
+	<lastmod>2025-09-18T17:43:35+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://jurkis.neocities.org/switchingsoftware</loc>
+	<lastmod>2025-09-18T17:43:36+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 </urlset>
