@@ -64,11 +64,12 @@
     </p>
     <hr>
     <footer>
-        <p>&copy; <span id="year"></span> Jurkis</p>
+        <p>&copy; <span id="year"></span> <a href="index.html">Jurkis</a></p>
     </footer>
     <script>
         // Set the current year dynamically
-        docu
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
 </body >
 
 </html >
