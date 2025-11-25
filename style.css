@@ -19,7 +19,7 @@ h2 {
 h3 {
   background-color: #EAE0C0;
 }
-
+/* Strava badge */
 .strava-badge- {
   display: inline-block;
   height: 16px;
@@ -39,12 +39,13 @@ h3 {
   width: 16px;
   background: url(//badges.strava.com/echelon-sprite-16.png) no-repeat 0 0;
 }
-
+/* Strava badge end*/
 footer {
   display: block;
   border-style: inherit;
   color: antiquewhite;
 }
+/* Table styling */
 .styled-table {
     border-collapse: collapse;
     width: 60%;
@@ -66,3 +67,4 @@ footer {
 .styled-table tr:nth-child(even) {
     background-color: #fafafa;
 }
+/* Table styling end*/
