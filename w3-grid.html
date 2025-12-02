@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="lt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>W3 Grid — pavyzdys</title>
+    <meta name="description" content="Paprastas CSS Grid (W3 style) pavyzdys">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+</head>
+
+<body>
+    <div class="w3-container w3-teal">
+        <h1>My Header</h1>
+    </div>
+
+    <img src="img_car.jpg" alt="Car">
+
+    <div class="w3-container">
+        <p>A car is a wheeled, self-powered motor vehicle used for transportation.</p>
+    </div>
+
+    <div class="w3-container w3-teal">
+        <p>My Footer</p>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Jurkis</p>
+    </footer>
+
+    <script>
+        // current year
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
