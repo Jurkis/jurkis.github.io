@@ -8,15 +8,7 @@ p {
   margin: 10px;
 }
 
-h1 {
-  background-color: #EAE0C0;
-}
-
-h2 {
-  background-color: #EAE0C0;
-}
-
-h3 {
+h1, h2, h3 {
   background-color: #EAE0C0;
 }
 /* Strava badge */
