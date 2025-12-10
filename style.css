@@ -3,7 +3,7 @@ body {
   background-color: #FDF6E3;
   font-family: monospace;
   font-size: larger;
-  justify-content: center;
+  text-align: justify;
 }
 
 p {
