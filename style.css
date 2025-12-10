@@ -1,6 +1,8 @@
 body {
   margin: 2%;
-  background-color: #FDF6E3
+  background-color: #FDF6E3;
+  font-family: monospace;
+  font-size: larger;
 }
 
 p {
@@ -8,9 +10,12 @@ p {
   margin: 10px;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   background-color: #EAE0C0;
 }
+
 /* Strava badge */
 .strava-badge- {
   display: inline-block;
@@ -31,32 +36,39 @@ h1, h2, h3 {
   width: 16px;
   background: url(//badges.strava.com/echelon-sprite-16.png) no-repeat 0 0;
 }
+
 /* Strava badge end*/
 footer {
   display: block;
   border-style: inherit;
   color: antiquewhite;
 }
+
 /* Table styling */
 .styled-table {
-    border-collapse: collapse;
-    width: 60%;
-    margin: 20px 0;
-    font-size: 1em;
-    font-family: Arial, sans-serif;
-    min-width: 300px;
-    box-shadow: 0 0 10px #ccc;
+  border-collapse: collapse;
+  width: 60%;
+  margin: 20px 0;
+  font-size: 1em;
+  font-family: monospace;
+  min-width: 300px;
+  box-shadow: 0 0 10px #ccc;
 }
-.styled-table th, .styled-table td {
-    border: 1px solid #ddd;
-    padding: 8px 12px;
-    text-align: left;
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
 }
+
 .styled-table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
+  background-color: #f2f2f2;
+  font-weight: bold;
 }
+
 .styled-table tr:nth-child(even) {
-    background-color: #fafafa;
+  background-color: #fafafa;
 }
+
 /* Table styling end*/
