@@ -48,7 +48,7 @@ footer {
 /* Table styling */
 .styled-table {
   border-collapse: collapse;
-  width: 60%;
+  width: 100%;
   margin: 20px 0;
   font-size: 1em;
   font-family: monospace;
